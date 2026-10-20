@@ -1,0 +1,12 @@
+{
+  "hash": "b6a7b87da64e9d1ba2ae01a1ccd559e6",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"Optimizing Matrix Multiplications for Cloud AI Pipelines\"\ndate: \"2026-10-20\"\ncategories: [MLOps, Cloud Infrastructure]\n---\n\nAs an AI engineer transitioning from resource-constrained systems to enterprise cloud architectures, compute efficiency is paramount.\n\nHere is a standard LaTeX formula for scaling weights:\n$$ Y = \\sigma(WX + b) $$\n\nBelow is the Python benchmark I ran to test inference latency:\n\n::: {#595a9d0b .cell execution_count=1}\n``` {.python .cell-code}\nimport numpy as np\nimport time\n\nstart = time.time()\nmatrix = np.random.rand(1000, 1000)\nresult = np.dot(matrix, matrix)\nprint(f\"Execution time: {time.time() - start:.4f} seconds\")\n```\n:::\n\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

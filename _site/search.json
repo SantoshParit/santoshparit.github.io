@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Santosh",
+    "section": "",
+    "text": "Post With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nOct 20, 2026\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nOptimizing Matrix Multiplications for Cloud AI Pipelines\n\n\n\nMLOps\n\nCloud Infrastructure\n\n\n\n\n\n\n\n\n\nOct 20, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nOct 17, 2026\n\n\nTristan O’Malley\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/sample/index.html",
+    "href": "posts/sample/index.html",
+    "title": "Optimizing Matrix Multiplications for Cloud AI Pipelines",
+    "section": "",
+    "text": "As an AI engineer transitioning from resource-constrained systems to enterprise cloud architectures, compute efficiency is paramount.\nHere is a standard LaTeX formula for scaling weights: \\[ Y = \\sigma(WX + b) \\]\nBelow is the Python benchmark I ran to test inference latency:\n\n\nCode\nimport numpy as np\nimport time\n\nstart = time.time()\nmatrix = np.random.rand(1000, 1000)\nresult = np.dot(matrix, matrix)\nprint(f\"Execution time: {time.time() - start:.4f} seconds\")"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  }
+]
