@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Your Name</title>
+<link>https://github.io/</link>
+<atom:link href="https://github.io/index.xml" rel="self" type="application/rss+xml"/>
+<description>AI Engineer | Former Bosch Software Architect</description>
+<generator>quarto-1.10.19</generator>
+<lastBuildDate>Wed, 21 Oct 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>System Design for Enterprise Tech</title>
+  <link>https://github.io/posts/welcome/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+<p>Hello World. This is the first post detailing high-availability enterprise architectures.</p>
+
+
+
+ ]]></description>
+  <category>Systems</category>
+  <category>Engineering</category>
+  <guid>https://github.io/posts/welcome/</guid>
+  <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>
