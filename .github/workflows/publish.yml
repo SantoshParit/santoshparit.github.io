@@ -6,9 +6,15 @@ on:
 
 jobs:
   build-deploy:
-    runs-on: ubuntu-latest
+    # Explicitly lock to 24.04 to bypass the recent October 2026 ubuntu-latest breaking updates
+    runs-on: ubuntu-24.04 
+    
+    # CRITICAL: Grant the token permission to push files to the gh-pages branch
     permissions:
       contents: write
+      pages: write
+      id-token: write
+
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -16,18 +22,15 @@ jobs:
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
-      # Sets up Python in the cloud environment to run your code blocks safely
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11' 
 
-      # Installs the necessary kernel rendering dependencies in the cloud runner
       - name: Install Python Dependencies
         run: |
           pip install ipykernel jupyter
 
-      # Tells Quarto to automatically compile your code and push it to GitHub Pages
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
         with:
