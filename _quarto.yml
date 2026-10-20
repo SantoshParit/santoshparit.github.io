@@ -6,7 +6,6 @@ website:
   description: "AI Engineer | Former Bosch Software Architect"
   site-url: "https://github.io"
   
-  # A clean, elegant top navigation bar
   navbar:
     background: light
     collapse: true
@@ -18,12 +17,12 @@ website:
 
 format:
   html:
-    # Moved theme inside format -> html
     theme: 
       light: [cosmo]
       dark: [darkly]
-    toc: true            # Generates a clean table of contents for deep articles
+    toc: true            
+    code-fold: true      
+    code-copy: true      
+    # CRITICAL ADDITION: Only use pre-rendered execution states
     execute:
-      eval: false
-    code-fold: true      # Lets readers expand/collapse raw Python/C++ code blocks
-    code-copy: true      # Adds a "Copy Code" button to snippets
+      freeze: true       # Tells GitHub Actions never to run code scripts on the server

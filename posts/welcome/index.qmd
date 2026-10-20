@@ -1,12 +1,7 @@
 ---
-title: "Welcome To My Blog"
-author: "Tristan O'Malley"
-date: "2026-10-17"
-categories: [news]
+title: "System Design for Enterprise Tech"
+date: "2026-10-21"
+categories: [Systems, Engineering]
 ---
 
-This is the first post in a Quarto blog. Welcome!
-
-![](thumbnail.jpg)
-
-Since this post doesn't specify an explicit `image`, the first image in the post will be used in the listing page of posts.
+Hello World. This is the first post detailing high-availability enterprise architectures.
